@@ -1,0 +1,39 @@
+Microsoft (R) Build Engine version 15.4.8.50001 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  webApp -> /home/jens/webApp/bin/Debug/netcoreapp2.0/linux-arm/webApp.dll
+EXEC : warning : Method `[System.Text.RegularExpressions]System.Text.RegularExpressions.Regex.Compile` will always throw because: [TEMPORARY EXCEPTION MESSAGE] ClassLoadGeneral: System.Reflection.Emit.ILGenerator, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a [/home/jens/webApp/webApp.csproj]
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__ErrGetErrorAlloc':
+  /root/corefx-1058715/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs:258: undefined reference to `CryptoNative_ErrGetErrorAlloc'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__ErrErrorStringN':
+  /root/corefx-1058715/bin/obj/Linux.AnyCPU.Release/System.IO.FileSystem.Watcher/netcoreapp/SR.cs:153: undefined reference to `CryptoNative_ErrErrorStringN'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpMdCtxCreate':
+  /root/corefx-1058715/src/System.IO.FileSystem.Watcher/src/System/IO/FileSystemWatcher.cs:169: undefined reference to `CryptoNative_EvpMdCtxCreate'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpMdCtxDestroy':
+  /home/jens/corert/src/System.Private.Reflection.Core/src/Internal/Reflection/Core/Execution/FieldAccessor.cs:17: undefined reference to `CryptoNative_EvpMdCtxDestroy'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpDigestReset':
+  /root/corefx-1058715/bin/obj/AnyOS.AnyCPU.Release/Microsoft.CSharp/netstandard/SR.cs:228: undefined reference to `CryptoNative_EvpDigestReset'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpDigestUpdate_0':
+  /root/corefx-1058715/src/System.Drawing.Primitives/src/System/Drawing/Rectangle.cs:186: undefined reference to `CryptoNative_EvpDigestUpdate'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpDigestFinalEx':
+  /root/corefx-1058715/src/System.Drawing.Primitives/src/System/Drawing/Rectangle.cs:195: undefined reference to `CryptoNative_EvpDigestFinalEx'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpMdSize':
+  /root/corefx-1058715/src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/Regex.cs:406: undefined reference to `CryptoNative_EvpMdSize'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpMd5':
+  /home/jens/corert/src/System.Private.Reflection.Core/src/Internal/Reflection/Core/Execution/MethodInvoker.cs:21: undefined reference to `CryptoNative_EvpMd5'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpSha1':
+  /home/jens/corert/src/System.Private.Reflection.Core/src/Internal/Reflection/Core/Execution/MethodInvoker.cs:30: undefined reference to `CryptoNative_EvpSha1'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpSha256':
+  /root/corefx-1058715/bin/obj/AnyOS.AnyCPU.Release/Microsoft.CSharp/netstandard/SR.cs:249: undefined reference to `CryptoNative_EvpSha256'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpSha384':
+  /root/corefx-1058715/src/System.IO.FileSystem.Watcher/src/System/IO/FileSystemWatcher.cs:290: undefined reference to `CryptoNative_EvpSha384'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__EvpSha512':
+  /root/corefx-1058715/bin/obj/AnyOS.AnyCPU.Release/Microsoft.CSharp/netstandard/SR.cs:255: undefined reference to `CryptoNative_EvpSha512'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__GetMaxMdSize':
+  /home/jens/corert/src/System.Private.Reflection.Core/src/Internal/Reflection/Core/Execution/MethodInvoker.cs:53: undefined reference to `CryptoNative_GetMaxMdSize'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_Crypto__CryptoNative_GetRandomBytes':
+  /home/jens/corert/src/Common/src/System/CommonRuntimeTypes.cs:15: undefined reference to `CryptoNative_GetRandomBytes'
+  obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o: In function `System_Security_Cryptography_Algorithms_Interop_CryptoInitializer__EnsureOpenSslInitialized':
+  /root/corefx-1058715/src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedView.Unix.cs:165: undefined reference to `CryptoNative_EnsureOpenSslInitialized'
+clang : error : linker command failed with exit code 1 (use -v to see invocation) [/home/jens/webApp/webApp.csproj]
+/home/jens/corert/bin/Linux.x64.Release/build/Microsoft.NETCore.Native.targets(166,5): error MSB3073: The command "clang-3.9 obj/Debug/netcoreapp2.0/linux-arm/native/webApp.o -o bin/Debug/netcoreapp2.0/linux-arm/native/webApp /home/jens/corert/bin/Linux.x64.Release/sdk/libbootstrapper.a /home/jens/corert/bin/Linux.x64.Release/sdk/libRuntime.a /home/jens/corert/bin/Linux.x64.Release/sdk/libSystem.Private.CoreLib.Native.a /home/jens/corert/bin/Linux.x64.Release/framework/System.Native.a /home/jens/corert/bin/Linux.x64.Release/framework/libSystem.Globalization.Native.a -g -Wl,-rpath,'$ORIGIN' -pthread -lstdc++ -ldl -lm -luuid -lrt" exited with code 1. [/home/jens/webApp/webApp.csproj]
